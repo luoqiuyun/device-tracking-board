@@ -1,0 +1,86 @@
+{
+  "lanes": [
+    {
+      "id": "requested",
+      "title": "Device Requested",
+      "style": { "width": 280 },
+      "cards": [
+        {
+          "id": "switch-001",
+          "type": "SWITCH",
+          "state": "off",
+          "name": "light switch 1"
+        },
+        {
+          "id": "switch-002",
+          "type": "SWITCH",
+          "state": "off",
+          "name": "light switch 2"
+        },
+        {
+          "id": "switch-003",
+          "type": "SWITCH",
+          "state": "off",
+          "name": "light switch 3"
+        },
+        {
+          "id": "switch-004",
+          "type": "SWITCH",
+          "state": "off",
+          "name": "light switch 4"
+        }
+      ]
+    },
+    {
+      "id": "purchased",
+      "title": "Device Purchased",
+      "style": { "width": 280 },
+      "cards": [
+        {
+          "id": "lock-001",
+          "type": "LOCK",
+          "state": "30 mins",
+          "name": "door lock",
+          "codes": [ "1234", "2345", "3456", "4567" ],
+          "locked": true
+        }
+      ]
+    },
+    {
+      "id": "shipped",
+      "title": "Device Shipped",
+      "style": { "width": 280 },
+      "cards": [
+        {
+          "id": "dimmer-001",
+          "type": "DIMMER",
+          "state": "15 mins",
+          "name": "hallway dimmer",
+          "level": 0.85
+        },
+        {
+          "id": "dimmer-002",
+          "type": "DIMMER",
+          "state": "15 mins",
+          "name": "hallway dimmer",
+          "level": 0.85
+        }
+      ]
+    },
+    {
+      "id": "installed",
+      "title": "Device Installed",
+      "style": { "width": 280 },
+      "cards": [
+        {
+          "id": "thermo-001",
+          "type": "THERMO",
+          "state": "30 mins",
+          "name": "thermostat",
+          "temp": 72.0,
+          "mode": "AUTO"
+        }
+      ]
+    }
+  ]
+}

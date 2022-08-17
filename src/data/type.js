@@ -1,0 +1,3 @@
+const DEVICE_TYPE = [SWITCH, LOCK, DIMMER, THERMO ];
+
+export { DEVICE_TYPE };

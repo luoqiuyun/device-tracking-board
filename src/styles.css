@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+.notification {
+  color: orange;
+  margin:  15px 0;
+}
+.card {
+  margin:  5px 0;
+}
